@@ -1,0 +1,30 @@
+/* comment structure 
+(changes the background color of body)
+can be multiple lines */
+body {
+    background-color: green; /* change to green */
+}
+
+/* selecting the id or the tag */
+h1 {
+   color: yellow;
+}
+
+/* selecting by the id attribute */
+#welcome {
+   font: 200;
+}
+
+/* selecing by class 
+(.name of the class to select each component with the class attribute) 
+This is querying for every h2 component that has the class*/
+
+h2.heading {
+   color:brown
+}
+
+/*universal selector (every element in the page should obey)*/
+
+* {
+   color:black;
+}

@@ -1,0 +1,27 @@
+/* Borders (wrappers for particular elements) */
+
+p.heading {
+    border-style: inset;
+    border-width: thick;
+    border-color: red;
+}
+
+#p1 {
+    border: 3px solid purple;
+    padding-top: 40px;
+    padding-left: 40px;
+
+}
+
+h2 {
+    border-style: outset;
+    border-width: 5px;
+    padding: 20px 40px 10px 10px;
+}
+
+/* the border is not visible (top right bottom left) */
+h1 {
+    border-style: hidden hidden double hidden;
+    border-width: 0px 0px 10px 0px;
+    border-color: red;
+}

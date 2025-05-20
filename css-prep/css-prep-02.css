@@ -1,0 +1,13 @@
+/* We can chain multiple selectors back to back with a comma */
+
+h1, p {
+    color: black;
+}
+
+/* backgrounds */
+
+body {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLa1uom58d-82l2dvwmwr5h6luAumTBzJoRA&s");
+    opacity: 0.95; /* 0 - 1 scale, 0 being fully transparent */
+    background-position: right top;
+}
